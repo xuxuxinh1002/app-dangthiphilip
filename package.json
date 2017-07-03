@@ -1,0 +1,42 @@
+{
+  "name": "firebase-redux-react-test",
+  "version": "1.0.0",
+  "description": "A walkthrough of how I managed to get Firebase v3 to play nice with React and Redux.",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --inline --content-base . --history-api-fallback",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "babel": {
+    "plugins": [
+      "transform-object-rest-spread"
+    ]
+  },
+  "dependencies": {
+    "babel-plugin-transform-object-rest-spread": "^6.8.0",
+    "firebase": "^2.4.2",
+    "immutable": "^3.8.1",
+    "react": "^0.14.9",
+    "react-bootstrap-table": "^3.4.2",
+    "react-csv": "^1.0.8",
+    "react-dom": "^0.14.9",
+    "react-router": "^2.5.2",
+    "reactfire": "^1.0.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.5.1",
+    "babel-loader": "^6.2.2",
+    "babel-preset-es2015": "^6.5.0",
+    "babel-preset-react": "^6.5.0",
+    "http-server": "^0.8.5",
+    "react-hot-loader": "^1.3.0",
+    "react-redux": "^4.4.0",
+    "redux": "^3.3.1",
+    "webpack": "^1.12.13",
+    "webpack-dev-server": "^1.14.1",
+    "css-loader": "^0.23.1",
+    "node-sass": "^3.4.2",
+    "sass-loader": "^3.1.2",
+    "style-loader": "^0.13.0"
+  }
+}
